@@ -37,4 +37,4 @@ This software uses the following open source packages:
 ## You may also like...
 
 - [Tourist Spot landing page](https://github.com/bruno-c-p/tourist-spot) - A tourist spot landing page
-- [Receipts page](https://github.com/bruno-c-p/receipts-page) - A simple cupcake receipt page.
+- [Receipts page](https://github.com/bruno-c-p/receipts-page) - A simple cupcake receipt page
