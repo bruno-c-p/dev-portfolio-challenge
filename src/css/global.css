@@ -1,34 +1,93 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  strong {
+    font-weight: normal;
+  }
 }
 
 :root {
-    --red: #e3646e;
-    --purple: #bb72e9;
-    --blue: #3996db;
-    --green: #82bc4f;
-    --yellow: #eabd5f;
-    --gray-100: #0d0e11;
-    --gray-200: #16181d;
-    --gray-300: #292c34;
-    --gray-400: #878ea1;
-    --gray-500: #c0c4ce;
-    --gray-600: #e2e4e9;
-    --font-title: 'Asap', sans-serif;
-    --font-subtitle: 'Inconsolata', monospace;
-    --font-text: 'Maven Pro', sans-serif;
-    --title-lg: 700 3.5rem/120% var(--font-title);
-    --title-md: 700 1.5rem/120% var(--font-title);
-    --title-sm: 700 1rem/120% var(--font-title);
-    --subtitle: 400 1.25rem/120% var(--font-subtitle);
-    --text-md: 400 1rem/140% var(--font-text);
-    --text-sm: 400 0.875rem/140% var(--font-text);
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+  --font-title: "Asap", sans-serif;
+  --font-subtitle: "Inconsolata", monospace;
+  --font-text: "Maven Pro", sans-serif;
+  --title-lg: 700 3.5rem/120% var(--font-title);
+  --title-md: 700 1.5rem/120% var(--font-title);
+  --title-sm: 700 1rem/120% var(--font-title);
+  --subtitle: 400 1.25rem/120% var(--font-subtitle);
+  --text-md: 400 1rem/140% var(--font-text);
+  --text-sm: 400 0.875rem/140% var(--font-text);
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 body {
-    font-family: var(--font-text);
-    background-color: var(--gray-200);
-    color: var(--gray-600);
+  font: var(--text-md);
+  background-color: var(--gray-200);
+  color: var(--gray-600);
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+
+.container {
+  max-width: 1366px;
+  margin-inline: auto;
+}
+
+.dark-bg {
+  background-color: var(--gray-100);
+}
+
+section header,
+footer header {
+  h3 {
+    text-align: center;
+    font: var(--subtitle);
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 8px;
+    font: var(--title-md);
+  }
+}
+
+section,
+footer {
+  padding: 72px 120px 144px;
+}
+
+.red {
+  color: var(--red);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.green {
+  color: var(--green);
 }

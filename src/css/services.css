@@ -1,0 +1,34 @@
+#services {
+  ul {
+    margin-top: 56px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 280px));
+    justify-content: center;
+    gap: 24px;
+
+    li figure {
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 20px;
+
+      i {
+        font-size: 48px;
+      }
+
+      figcaption {
+        margin-top: 20px;
+
+        h4 {
+          font: var(--title-sm);
+        }
+
+        p {
+          color: var(--gray-500);
+          font: var(--text-sm);
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
