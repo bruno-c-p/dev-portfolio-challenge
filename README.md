@@ -33,8 +33,3 @@ This software uses the following open source packages:
 ## Related
 
 [brunocardozo.com.br](https://github.com/bruno-c-p/portfolio) - My own portfolio
-
-## You may also like...
-
-- [Tourist Spot landing page](https://github.com/bruno-c-p/tourist-spot) - A tourist spot landing page
-- [Receipts page](https://github.com/bruno-c-p/receipts-page) - A simple cupcake receipt page
