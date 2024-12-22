@@ -23,6 +23,10 @@
 
 https://www.figma.com/community/file/1387080701963671866/portfolio-dev
 
+## Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+
 ## Credits
 
 This software uses the following open source packages:
