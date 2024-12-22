@@ -11,7 +11,13 @@
   <a href="#related">Related</a>
 </p>
 
-![screenshot](./.github/images/page.gif)
+
+<div align="center">
+  
+  ![showcase](https://github.com/user-attachments/assets/94fb5810-cddd-40f5-8a54-8c848b4fe733)
+  
+</div>
+
 
 ## Figma
 
